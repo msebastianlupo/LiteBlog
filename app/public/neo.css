@@ -150,14 +150,38 @@ h1, h2, h3, h4, h5, h6{
 .bor-b-0-1{
   border-bottom: 0.1rem solid var(--bor);
 }
+.bor-b-0-2{
+  border-bottom: 0.2rem solid var(--bor);
+}
+.bor-b-0-3{
+  border-bottom: 0.3rem solid var(--bor);
+}
 .bor-l-0-1{
   border-left: 0.1rem solid var(--bor);
+}
+.bor-l-0-2{
+  border-left: 0.2rem solid var(--bor);
+}
+.bor-l-0-3{
+  border-left: 0.3rem solid var(--bor);
 }
 .bor-r-0-1{
   border-right: 0.1rem solid var(--bor);
 }
+.bor-r-0-2{
+  border-right: 0.2rem solid var(--bor);
+}
+.bor-r-0-3{
+  border-right: 0.3rem solid var(--bor);
+}
 .bor-t-0-1{
   border-top: 0.1rem solid var(--bor);
+}
+.bor-t-0-2{
+  border-top: 0.2rem solid var(--bor);
+}
+.bor-t-0-3{
+  border-top: 0.3rem solid var(--bor);
 }
 
 /* bottom | bot */
@@ -257,17 +281,154 @@ h1, h2, h3, h4, h5, h6{
 .chimar-2 > *{
   margin: 2rem;
 }
+.chimar-3 > *{
+  margin: 3rem;
+}
+.chimar-4 > *{
+  margin: 4rem;
+}
+.chimar-5 > *{
+  margin: 5rem;
+}
+.chimar-b-0 > *{
+  margin-bottom: 0;
+}
+.chimar-b-0-5 > *{
+  margin-bottom: 0.5rem;
+}
 .chimar-b-1 > *{
   margin-bottom: 1rem;
 }
 .chimar-b-2 > *{
   margin-bottom: 2rem;
 }
+.chimar-b-3 > *{
+  margin-bottom: 3rem;
+}
+.chimar-b-4 > *{
+  margin-bottom: 4rem;
+}
+.chimar-b-5 > *{
+  margin-bottom: 5rem;
+}
+.chimar-l-0 > *{
+  margin-left: 0;
+}
+.chimar-l-0-5 > *{
+  margin-left: 0.5rem;
+}
+.chimar-l-1 > *{
+  margin-left: 1rem;
+}
+.chimar-l-2 > *{
+  margin-left: 2rem;
+}
+.chimar-l-3 > *{
+  margin-left: 3rem;
+}
+.chimar-l-4 > *{
+  margin-left: 4rem;
+}
+.chimar-l-5 > *{
+  margin-left: 5rem;
+}
+.chimar-r-0 > *{
+  margin-right: 0;
+}
+.chimar-r-0-5 > *{
+  margin-right: 0.5rem;
+}
+.chimar-r-1 > *{
+  margin-right: 1rem;
+}
+.chimar-r-2 > *{
+  margin-right: 2rem;
+}
+.chimar-r-3 > *{
+  margin-right: 3rem;
+}
+.chimar-r-4 > *{
+  margin-right: 4rem;
+}
+.chimar-r-5 > *{
+  margin-right: 5rem;
+}
+.chimar-t-0 > *{
+  margin-top: 0;
+}
+.chimar-t-0-5 > *{
+  margin-top: 0.5rem;
+}
 .chimar-t-1 > *{
   margin-top: 1rem;
 }
 .chimar-t-2 > *{
   margin-top: 2rem;
+}
+.chimar-t-3 > *{
+  margin-top: 3rem;
+}
+.chimar-t-4 > *{
+  margin-top: 4rem;
+}
+.chimar-t-5 > *{
+  margin-top: 5rem;
+}
+.chimar-x-0 > *{
+  margin-left: 0;
+  margin-right: 0;
+}
+.chimar-x-0-5 > *{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.chimar-x-1 > *{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.chimar-x-2 > *{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.chimar-x-3 > *{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.chimar-x-4 > *{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.chimar-x-5 > *{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.chimar-y-0 > *{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.chimar-y-0-5 > *{
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.chimar-y-1 > *{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.chimar-y-2 > *{
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.chimar-y-3 > *{
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.chimar-y-4 > *{
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+.chimar-y-5 > *{
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 
 .chipad-0 > *{
@@ -291,6 +452,98 @@ h1, h2, h3, h4, h5, h6{
 .chipad-5 > *{
   padding: 5rem;
 }
+.chipad-b-0 > *{
+  padding-bottom: 0;
+}
+.chipad-b-0-5 > *{
+  padding-bottom: 0.5rem;
+}
+.chipad-b-1 > *{
+  padding-bottom: 1rem;
+}
+.chipad-b-2 > *{
+  padding-bottom: 2rem;
+}
+.chipad-b-3 > *{
+  padding-bottom: 3rem;
+}
+.chipad-b-4 > *{
+  padding-bottom: 4rem;
+}
+.chipad-b-5 > *{
+  padding-bottom: 5rem;
+}
+.chipad-l-0 > *{
+  padding-left: 0;
+}
+.chipad-l-0-5 > *{
+  padding-left: 0.5rem;
+}
+.chipad-l-1 > *{
+  padding-left: 1rem;
+}
+.chipad-l-2 > *{
+  padding-left: 2rem;
+}
+.chipad-l-3 > *{
+  padding-left: 3rem;
+}
+.chipad-l-4 > *{
+  padding-left: 4rem;
+}
+.chipad-l-5 > *{
+  padding-left: 5rem;
+}
+.chipad-r-0 > *{
+  padding-right: 0;
+}
+.chipad-r-0-5 > *{
+  padding-right: 0.5rem;
+}
+.chipad-r-1 > *{
+  padding-right: 1rem;
+}
+.chipad-r-2 > *{
+  padding-right: 2rem;
+}
+.chipad-r-3 > *{
+  padding-right: 3rem;
+}
+.chipad-r-4 > *{
+  padding-right: 4rem;
+}
+.chipad-r-5 > *{
+  padding-right: 5rem;
+}
+.chipad-t-0 > *{
+  padding-top: 0;
+}
+.chipad-t-0-5 > *{
+  padding-top: 0.5rem;
+}
+.chipad-t-1 > *{
+  padding-top: 1rem;
+}
+.chipad-t-2 > *{
+  padding-top: 2rem;
+}
+.chipad-t-3 > *{
+  padding-top: 3rem;
+}
+.chipad-t-4 > *{
+  padding-top: 4rem;
+}
+.chipad-t-5 > *{
+  padding-top: 5rem;
+}
+.chipad-x-0 > *{
+  padding-left: 0;
+  padding-right: 0;
+}
+.chipad-x-0-5 > *{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
 .chipad-x-1 > *{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -298,6 +551,26 @@ h1, h2, h3, h4, h5, h6{
 .chipad-x-2 > *{
   padding-left: 2rem;
   padding-right: 2rem;
+}
+.chipad-x-3 > *{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.chipad-x-4 > *{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.chipad-x-5 > *{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.chipad-y-0 > *{
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.chipad-y-0-5 > *{
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 .chipad-y-1 > *{
   padding-bottom: 1rem;
@@ -307,7 +580,22 @@ h1, h2, h3, h4, h5, h6{
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+.chipad-y-3 > *{
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.chipad-y-4 > *{
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+.chipad-y-5 > *{
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
 
+.chirad-0-5 > *{
+  border-radius: 0.5rem;
+}
 .chirad-1 > *{
   border-radius: 1rem;
 }
@@ -316,6 +604,12 @@ h1, h2, h3, h4, h5, h6{
 }
 .chirad-3 > *{
   border-radius: 3rem;
+}
+.chirad-4 > *{
+  border-radius: 4rem;
+}
+.chirad-5 > *{
+  border-radius: 5rem;
 }
 
 .chisha-1 > *{

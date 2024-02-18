@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
+import PrettyLink from '../PrettyLink.jsx'
 import Submit from '../forms/Submit.jsx'
 
 function TeamDelete(){
@@ -45,7 +46,10 @@ function TeamDelete(){
             <h1 className="swi1366tex-4 adj-c">Desactivar usuario {userData.email}</h1>
             <div>
                 <p className="mar-t-4 adj-c errcol tex-2">{errors}</p>
-                <form className="chidis-f chidir-c mar-t-2 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={disableUser}>
+                <div className="dis-f jus-e mar-t-4 chimar-l-2">
+                    <PrettyLink link="/admin/team" icon="faCircleChevronLeft" title="Volver a usuarios" />
+                </div>
+                <form className="chidis-f chidir-c mar-t-1 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={disableUser}>
                     <p className="tex-2-2">Advertencia: esta operación no se puede deshacer</p>
                     <Submit text="Desactivar" styles="rad-0-5 pad-2 hovbac-d" />
                 </form>

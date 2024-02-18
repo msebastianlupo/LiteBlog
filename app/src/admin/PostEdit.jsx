@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
+import PrettyLink from '../PrettyLink.jsx'
 import TextInput from '../forms/TextInput.jsx'
 import LiteEditor from '../forms/LiteEditor.jsx'
 import Submit from '../forms/Submit.jsx'
@@ -57,7 +58,10 @@ function PostEdit(){
             <h1 className="swi1366tex-4 adj-c">Modificación de entrada de blog</h1>
             <div>
                 <p className="mar-t-4 adj-c tex-2">{errors}</p>
-                <form className="chidis-f chidir-c mar-t-2 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={updatePost} encType="multipart/form-data">
+                <div className="dis-f jus-e mar-t-4 chimar-l-2">
+                    <PrettyLink link="/admin/posts" icon="faCircleChevronLeft" title="Volver a entradas" />
+                </div>
+                <form className="chidis-f chidir-c mar-t-1 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={updatePost} encType="multipart/form-data">
                     <TextInput label="Título" name="title" required={true} value={post.title} />
                     <TextInput label="Categoría" name="category" min="3" max="20" required={true} value={post.category} />
                     <LiteEditor name="Editor HTML" value={post.text} />

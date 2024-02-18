@@ -1,6 +1,7 @@
-import { useState } from 'react';
-import Submit from '../forms/Submit.jsx';
-import PasswordInput from '../forms/PasswordInput.jsx';
+import { useState } from 'react'
+import PrettyLink from '../PrettyLink.jsx'
+import Submit from '../forms/Submit.jsx'
+import PasswordInput from '../forms/PasswordInput.jsx'
 
 function UpdatePassword(){
     const [message, setMessage] = useState("")
@@ -62,7 +63,10 @@ function UpdatePassword(){
     return(
         <div>
             <p className={`mar-t-2 adj-c tex-2 ${messageStyles}`}>{message}</p>
-            <form className="chidis-f chidir-c mar-t-2 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={updatePassword}>
+            <div className="dis-f jus-e mar-t-4 chimar-l-2">
+                <PrettyLink link="/admin/dashboard" icon="faCircleChevronLeft" title="Volver al panel" />
+            </div>
+            <form className="chidis-f chidir-c mar-t-1 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={updatePassword}>
                 <PasswordInput label="Ingresá la nueva clave" name="password" min="8" max="60"  />
                 <PasswordInput label="Repetí la nueva clave" name="repeat_password" min="8" max="60" />
                 <Submit text="Cambiar Clave" />

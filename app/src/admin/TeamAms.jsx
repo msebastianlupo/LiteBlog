@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import PrettyLink from '../PrettyLink.jsx'
 import TableHead from '../TableHead.jsx'
 import TableBodyUsers from '../TableBodyUsers.jsx'
 
@@ -20,10 +20,11 @@ function TeamAms(){
     return(
         <>
             <h1 className="swi1366tex-4 adj-c">Administración de usuarios</h1>
-            <div className="dis-f jus-e">
-                <Link to="/admin/team/new" className="dis-i-b mar-t-4 pad-2 rad-0-5 tex-1-8 bac-s hovbac-t col-q">Añadir usuario</Link>
+            <div className="dis-f jus-e mar-t-4 chimar-l-2">
+                <PrettyLink link="/admin/dashboard" icon="faCircleChevronLeft" title="Volver al panel" />
+                <PrettyLink link="/admin/team/new" icon="faCirclePlus" title="Nuevo usuario" />
             </div>
-            <div className="ove-x-a maxwid-100 mar-t-1">
+            <div className="ove-x-a maxwid-100">
                 {
                     users.length > 0 ?
                         <div className="ove-x-a maxwid-100 mar-t-1">

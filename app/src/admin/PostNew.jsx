@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import PrettyLink from '../PrettyLink.jsx'
 import TextInput from '../forms/TextInput.jsx'
 import LiteEditor from '../forms/LiteEditor.jsx'
 import Submit from '../forms/Submit.jsx'
@@ -46,7 +47,10 @@ function PostNew(){
             <h1 className="swi1366tex-4 adj-c">Nueva entrada de blog</h1>
             <div>
                 <p className="mar-t-4 adj-c tex-2">{errors}</p>
-                <form className="chidis-f chidir-c mar-t-2 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={sendPost}>
+                <div className="dis-f jus-e mar-t-4 chimar-l-2">
+                    <PrettyLink link="/admin/posts" icon="faCircleChevronLeft" title="Volver a entradas" />
+                </div>
+                <form className="chidis-f chidir-c mar-t-1 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={sendPost}>
                     <TextInput label="Título" name="title" required={true} />
                     <TextInput label="Categoría" name="category" min="3" max="20" required={true} />
                     <LiteEditor name="Editor HTML" required={true} />

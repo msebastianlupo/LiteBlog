@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
+import PrettyLink from '../PrettyLink.jsx'
 import Submit from '../forms/Submit.jsx'
 import SelectInput from '../forms/SelectInput.jsx'
 
@@ -83,7 +84,10 @@ function TeamEdit(){
             <h1 className="swi1366tex-4 adj-c">Modificar rol de usuario {userData.email}</h1>
         <div>
                 <p className={`mar-t-4 adj-c tex-2 ${messageStyles}`}>{message}</p>
-                <form className="chidis-f chidir-c mar-t-2 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={modifyUser}>
+                <div className="dis-f jus-e mar-t-4 chimar-l-2">
+                    <PrettyLink link="/admin/team" icon="faCircleChevronLeft" title="Volver a usuarios" />
+                </div>
+                <form className="chidis-f chidir-c mar-t-1 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={modifyUser}>
                     <SelectInput label="Rol de usuario" name="role" options={["editor", "admin"]} required={true} value={userData.role} />
                     <Submit text="Modificar rol" />
                 </form>

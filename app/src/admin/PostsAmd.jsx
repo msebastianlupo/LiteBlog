@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import PrettyLink from '../PrettyLink.jsx'
 import TableHead from '../TableHead.jsx'
 import TableBodyPosts from '../TableBodyPosts.jsx'
 
@@ -20,8 +20,9 @@ function PostsAmd(){
     return(
         <>
             <h1 className="swi1366tex-4 adj-c">Administración de entradas de blog</h1>
-            <div className="dis-f jus-e">
-                <Link to="/admin/posts/new" className="dis-i-b mar-t-4 pad-2 rad-0-5 tex-1-8 bac-s hovbac-t col-q">Crear entrada</Link>
+            <div className="dis-f jus-e mar-t-4 chimar-l-2">
+                <PrettyLink link="/admin/dashboard" icon="faCircleChevronLeft" title="Volver al panel" />
+                <PrettyLink link="/admin/posts/new" icon="faCirclePlus" title="Nueva entrada" />
             </div>
             <div className="ove-x-a maxwid-100 mar-t-1">
                 {
