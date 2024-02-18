@@ -1,0 +1,47 @@
+[
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18b01" },
+        "user": "654a79f8127c3714aad18a01",
+        "title": "Las últimas tendencias en Inteligencia Artificial",
+        "subtitle": "Explorando el futuro de la IA",
+        "category": "inteligencia",
+        "text": "Descubre las últimas innovaciones y avances emocionantes en el campo de la Inteligencia Artificial. Desde algoritmos de aprendizaje profundo hasta aplicaciones prácticas, mantenemos un ojo en el futuro.",
+        "created": "2023-11-13 11:52:44"
+    },
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18b02" },
+        "user": "654a79f8127c3714aad18a03",
+        "title": "Desarrollo de Aplicaciones Móviles: Consejos y Trucos",
+        "subtitle": "Construyendo experiencias móviles excepcionales",
+        "category": "desarrollo",
+        "text": "Aprende los mejores prácticas y trucos para el desarrollo de aplicaciones móviles. Desde el diseño de interfaz de usuario hasta la optimización del rendimiento, te guiamos en la creación de aplicaciones impactantes.",
+        "created": "2023-11-14 08:02:49"
+    },
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18b03" },
+        "user": "654a79f8127c3714aad18a03",
+        "title": "El Impacto de la Realidad Virtual en la Industria del Entretenimiento",
+        "subtitle": "Explorando nuevos mundos a través de la VR",
+        "category": "realidad",
+        "text": "Sumérgete en el fascinante mundo de la Realidad Virtual y descubre cómo está transformando la industria del entretenimiento. Desde juegos envolventes hasta experiencias cinematográficas, la VR está cambiando la forma en que experimentamos el entretenimiento.",
+        "created": "2023-11-15 11:22:14"
+    },
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18b04" },
+        "user": "654a79f8127c3714aad18a05",
+        "title": "Avances en la Tecnología 5G: Más Allá de la Conectividad",
+        "subtitle": "Explorando las posibilidades del 5G",
+        "category": "tecnologia",
+        "text": "Descubre cómo la tecnología 5G está revolucionando la conectividad y habilitando nuevas aplicaciones. Desde la Internet de las Cosas hasta la conducción autónoma, exploramos el potencial ilimitado de la red 5G.",
+        "created": "2023-11-15 17:32:21"
+    },
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18b05" },
+        "user": "654a79f8127c3714aad18a05",
+        "title": "Ciberseguridad en la Era Digital: Desafíos y Soluciones",
+        "subtitle": "Protegiendo la información en un mundo conectado",
+        "category": "ciberseguridad",
+        "text": "Exploramos los desafíos actuales en ciberseguridad y proporcionamos consejos prácticos para proteger tus datos en la era digital. Desde amenazas emergentes hasta estrategias de prevención, mantenemos tu seguridad en primer plano.",
+        "created": "2023-11-16 10:15:02"
+    }
+]

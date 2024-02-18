@@ -1,0 +1,43 @@
+[
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18c01" },
+        "post": "654a79f8127c3714aad18b01",
+        "comments": [
+            {
+                "name": "jorgito",
+                "email": "jorg@ito.com",
+                "comment": "¡Esta publicación es excelente!",
+                "date": "2023-11-16 11:14:09"
+            }
+        ]
+    },
+
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18c02" },
+        "post": "654a79f8127c3714aad18b02",
+        "comments": []
+    },
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18c03" },
+        "post": "654a79f8127c3714aad18b03",
+        "comments": []
+    },
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18c04" },
+        "post": "654a79f8127c3714aad18b04",
+        "comments": []
+    },
+
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18c05" },
+        "post": "654a79f8127c3714aad18b05",
+        "comments": [
+            {
+                "name": "miriam",
+                "email": "myr@iam.com",
+                "comment": "Que buen contenido, no dejo de leerlos",
+                "date": "2023-11-16 18:22:08"
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18a01" },
+        "email": "user1@lb.ar",
+        "password": "$2b$10$dmqrBozGEtPuACW14riu7OFDIw3fV0bGcidNCFC/XclcoWQlJjf9W"
+    },
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18a02" },
+        "email": "user2@lb.ar",
+        "password": "$2b$10$dmqrBozGEtPuACW14riu7OFDIw3fV0bGcidNCFC/XclcoWQlJjf9W"
+    },
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18a03" },
+        "email": "user3@lb.ar",
+        "password": "$2b$10$dmqrBozGEtPuACW14riu7OFDIw3fV0bGcidNCFC/XclcoWQlJjf9W"
+    },
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18a04" },
+        "email": "user4@lb.ar",
+        "password": "$2b$10$dmqrBozGEtPuACW14riu7OFDIw3fV0bGcidNCFC/XclcoWQlJjf9W"
+    },
+    {
+        "_id": { "$oid": "654a79f8127c3714aad18a05" },
+        "email": "user5@lb.ar",
+        "password": "$2b$10$dmqrBozGEtPuACW14riu7OFDIw3fV0bGcidNCFC/XclcoWQlJjf9W"
+    }
+]

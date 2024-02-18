@@ -1,0 +1,105 @@
+.ql-snow{
+    background: #fff;
+    color: #000;
+}
+
+.ql-toolbar{
+    background: #fff;
+}
+
+.ql-size-huge{
+    font-size: 4rem !important;
+}
+
+.ql-size-large{
+    font-size: 3rem !important;
+}
+
+.ql-size-small{
+    font-size: 1.4rem !important;
+}
+
+
+/* estílos externos para presentar los posts */
+.ql-posts blockquote{
+    margin-left: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+.ql-posts blockquote::after{
+    content: " ”";
+}
+
+.ql-posts blockquote::before{
+    content: "“ ";
+}
+
+.ql-posts h2{
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.ql-posts h3{
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.ql-posts h4{
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.ql-posts h5{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.ql-posts h6{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.ql-posts iframe{
+    width: 100%;
+    height: 400px;
+    border-radius: 1rem;
+}
+
+.ql-posts img{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.ql-posts p{
+    font-size: 1.8rem !important;
+}
+
+.ql-posts ol li{
+    list-style: decimal;
+}
+
+.ql-posts span{
+    font-size: unset;
+}
+
+.ql-posts ul li{
+    list-style: disc;
+}
+
+.ql-align-center{
+    text-align: center;
+}
+
+.ql-align-justify{
+    text-align: justify;
+}
+
+.ql-align-left{
+    text-align: left;
+}
+
+.ql-align-right{
+    text-align: right;
+}
