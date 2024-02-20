@@ -30,7 +30,7 @@ function Nav(){
         <>
             <nav className="maxwid-136-6 mar-0-a">
                 <div className="pos-f">
-                    <Link to="/"><FontAwesomeIcon icon={faLeaf} className="col-t pad-1 neu-1-r rad-0-5 cur-p" onClick={hide} /></Link>
+                    <Link to="/"><FontAwesomeIcon icon={faLeaf} className="col-t pad-1 neu-1-r perrad-50 cur-p" onClick={hide} /></Link>
                 </div>
                 <div className="dis-f jus-e">
                     <FontAwesomeIcon icon={faBars} className="swi480dis-n col-t pad-1 neu-1-r rad-0-5 cur-p" onClick={changeDisplay} />
