@@ -12,7 +12,7 @@ function Nav(){
     const [showSearchBox, setShowSearchBox] = useState(false)
     const [display, setDisplay] = useState("dis-n")
 
-    const { hasLoggedIn } = useContext(LoginContext);
+    const { hasLoggedIn } = useContext(LoginContext)
 
     const showHideSearchBox = () => {
         setShowSearchBox(!showSearchBox)

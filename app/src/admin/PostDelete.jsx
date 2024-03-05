@@ -43,7 +43,7 @@ function PostDelete(){
                 </div>
                 <form className="chidis-f chidir-c mar-t-1 chimar-t-2 neu-1 pad-2 rad-1" onSubmit={deletePost}>
                     <p className="tex-2-2">Advertencia: esta operación no se puede deshacer</p>
-                    <Submit text="Eliminar" styles="rad-0-5 pad-2 hovbac-d" />
+                    <Submit text="Eliminar" styles="rad-0-5 pad-2 hovbac-d cur-p" />
                 </form>
             </div>
         </>
